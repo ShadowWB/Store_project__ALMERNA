@@ -1,0 +1,11 @@
+.swiper-container{
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+.swiper-wrapper{
+    display: flex;
+    transition: all 1s;
+    height: auto;
+}
