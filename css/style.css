@@ -985,16 +985,30 @@ header{
     display: none;
 }
 
+
 @media screen and (max-width: 1270px) {
+    .up__button{
+        position: sticky;
+        bottom: 5%;
+        left: 95%;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: rgb(80 190 170 / 40%);
+        padding: 5px;
+        border: 2px solid rgb(80 190 170 / 40%);
+        transition: all .4s;
+        width: max-content;
+        cursor: pointer;
+        display: none;
+    }
     .nav-home {
         max-width: 170px;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .header{
-        background-color: red;
-    }
+
     .nav-home {
         max-width: 150px;
     }
