@@ -5,9 +5,9 @@ upButton.addEventListener('click',()=>{
     console.log('dssds')
 })
 window.onscroll = function (){
-    if (document.documentElement.scrollTop>20){
-        upButton.style.display= "block";
+    if (document.documentElement.scrollTop > 20){
+        upButton.style.display = "block";
     }else{
-        upButton.style.display= "none";
+        upButton.style.display = "none";
     }
 }
