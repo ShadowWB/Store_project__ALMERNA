@@ -1,0 +1,500 @@
+.hide__block {
+    display: none;
+}
+
+.show__block {
+    display: block;
+}
+
+
+.section__register {
+    margin: 10px auto;
+}
+
+.register__content {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 5px;
+}
+
+.registration__banner {
+    flex-shrink: 0.5;
+}
+
+.register__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 568px;
+    width: 100%;
+    position: relative;
+
+}
+
+.register__alert-close-btn {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.register__alert-close-btn img {
+    height: 20px;
+}
+
+.register__title {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 32px 0 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 314px;
+    width: 100%;
+}
+
+.register__form input {
+    max-width: 310px;
+    height: 54px;
+    width: 100%;
+    margin-bottom: 16px;
+    border: 1px solid var(--main-color-gray);
+    padding: 10px;
+}
+
+#privacy__checkbox {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.register__confirm-btn {
+    width: 100%;
+    height: 56px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    font-family: var(--second);
+    font-size: 14px;
+    margin: 6px 0 16px;
+}
+
+.privacy {
+    font-family: var(--second);
+    font-size: 12px;
+    color: var(--main-color-80);
+}
+
+.privacy a {
+    color: var(--main-color-100-gold);
+}
+
+
+/*signIn block*/
+
+
+.signIn__wrapper {
+    justify-content: space-evenly;
+}
+
+.signIn__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 568px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.signIn__confirm-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+    margin: 6px 0 16px;
+    font-family: var(--second);
+    font-size: 14px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot__password-link {
+    font-family: var(--second);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #929292;
+}
+
+.forgot__password-link a {
+    color: #929292;
+}
+
+.joinUsLink {
+    font-family: var(--second);
+    font-weight: 500;
+    font-size: 14px;
+    color: #393939;
+}
+
+.joinUsLink a {
+    color: #393939;
+}
+
+
+/*forgot-password__block*/
+
+
+.register__title-description {
+    font-family: var(--second);
+    font-weight: 500;
+    font-size: 14px;
+    color: #393939;
+    text-transform: none;
+    opacity: .6;
+    max-width: 400px;
+    line-height: 20px;
+    margin: 20px auto 0;
+}
+
+.register__signInLink a {
+    color: #393939;
+    font-weight: 700;
+}
+
+
+/*recovery-password*/
+
+.recovery-password__confirm-btn {
+    margin: 40px 0 0 0;
+}
+
+.recovery-password__confirm-btn__waiting {
+    background-color: #F2F2F2;
+    color: #CCCCCC;
+}
+
+
+/*createNewPassword__block*/
+
+.createNewPassword__block .register__title-description {
+    max-width: 328px;
+}
+
+.newPassword__confirm-btn {
+    margin-top: 24px;
+}
+
+
+/*CART CART*/
+/*CART CART*/
+/*CART CART*/
+
+.cart__section{
+    max-width: 1264px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.cart {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.cart__wrapper {
+    max-width: 704px;
+    width: 100%;
+}
+
+.cart__title,
+.summary__title {
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.cart__quantity-desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 16px;
+    font-family: var(--second);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    cursor: pointer;
+}
+.cart__quantity-desc:last-child{
+    cursor: pointer;
+    transition: all .3s ;
+}
+
+
+.cart__item {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 20px;
+}
+
+.cart__img {
+    margin-right: 3%;
+    flex-shrink: 0;
+}
+
+.cart__item:last-child {
+    border-bottom: none;
+}
+
+.cart__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 576px;
+    width: 100%;
+}
+.cart__item-title{
+    font-weight: 600;
+}
+.cart__headers{
+    display: flex;
+    justify-content: space-between;
+}
+.cart__item-sizes {
+    display: flex;
+    margin: 8px 0 16px;
+    font-family: var(--second);
+    color: #999999;
+}
+
+.cart__size {
+    padding-right: 24px;
+}
+
+.cart__item-price {
+    font-weight: 700;
+}
+.cart__remove{
+    color: #999999;
+    cursor: pointer;
+}
+
+.cart__amount-counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--second);
+}
+.cart__add-bns{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 116px;
+    width: 100%;
+    cursor: pointer;
+}
+.cart__add-bns div:nth-child(odd){
+    padding: 3px 14px 3px;
+   border: 1px solid #E5E5E5;
+}
+
+
+
+/*summary__ ssummary__ */
+/*summary__ ssummary__ */
+
+
+.summary__block{
+    max-width: 392px;
+    width: 100%;
+
+}
+
+.summary__price-formation,
+.summary__subtitle{
+    font-family: 'Apercu Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.summary__price-formation div,
+.summary__total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary__price-formation{
+    margin: 32px 0 24px;
+}
+.summary__subtotal:nth-child(2){
+   color: #9E9789;
+}
+
+.summary__price-formation div:nth-child(-n+3){
+    padding-bottom: 8px;
+}
+
+.summary__promocode{
+    position: relative;
+}
+
+.summary__promocode-inp  {
+    outline: none;
+    width: 100%;
+    border: 1px solid silver;
+    padding: 20px 0 20px 16px;
+    position: relative;
+}
+
+.summary__promocode div{
+    position: absolute;
+    top: 34%;
+    right: 5%;
+}
+
+.silver-lien{
+    width: 100%;
+    height: 1px;
+    margin: 24px 0;
+    background: #f2f2f2;
+}
+
+
+
+.summary__total {
+
+}
+.total-price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.summary__checkout-btn{
+    margin : 16px auto 0;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+
+    .cart__section {
+        padding: 0 50px;
+    }
+    .cart__wrapper{
+        margin-right: 100px;
+
+    }
+    .summary__block{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .cart__section {
+        padding: 0 30px;
+    }
+    .cart__wrapper{
+        margin-right: 66px;
+
+    }
+    .summary__block{
+        max-width: 226px;
+    }
+    .cart__description{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cart{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart__section {
+        padding: 0 30px;
+    }
+
+    .cart__wrapper{
+        margin-right:  0px;
+    }
+
+    .summary__block{
+        max-width: 564px;
+        border-top: 1px solid #f2f2f2;
+    }
+
+    .summary__checkout-btn{
+        max-width: 464px;
+        margin: 24px auto;
+    }
+
+    .summary__title{
+        display: none;
+    }
+
+    .summary__promocode {
+        display: none;
+    }
+
+    /*.card-description-price{*/
+    /*    font-size: 13px;*/
+    /*}*/
+
+    /*.card-description-title{*/
+    /*    font-size: 13px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 500px) {
+
+    .cart__section {
+        padding: 0 10px;
+    }
+
+
+}
+@media screen and (max-width: 412px) {
+
+    .cart__section {
+        padding: 0 10px;
+    }
+    .cart__description{
+        font-size: 12px;
+    }
+    .summary__price-formation,
+    .summary__subtitle {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 359px) {
+
+    .cart__description{
+        font-size: 10px;
+    }
+
+    .summary__price-formation,
+    .summary__subtitle {
+        font-size: 12px;
+    }
+
+}

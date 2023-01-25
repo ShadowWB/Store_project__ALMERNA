@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+<title>Product</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="container-header">
+      <div class="language">
+        <div class="language-short">EUR</div>
+        <div class="language-full">Germany</div>
+      </div>
+      <div class="header-info">Free shipping & free returns</div>
+      <div class="header-support">Support</div>
+    </div>
+  </div>
+</header>
+
+<nav class="navigation">
+
+  <div class="container nav-container">
+    <div class="nav-logo">
+      <a href="../index.html">
+        <img src="../images/logoMain.svg" alt="logo">
+      </a>
+    </div>
+    <div class="searching-line" id="searching-line">
+      <div class="searching-line__wrapper">
+        <label>
+          <input type="submit"   name="search-submit-btn" id="search-submit-btn">
+          <img class="nav-img" onclick="showSearchValue()" src="../images/search.png" alt="#" >
+        </label>
+        <input type="text" name="search-data" id="search-data" placeholder="Type here ">
+      </div>
+      <button type="button" id="close-search-btn">Cancel</button>
+    </div>
+    <ul class="nav-menu">
+      <li class="menu-item">
+        <a href="catalog.html">NEW ARRIVALS</a>
+      </li>
+      <li class="menu-item">
+        <a href="catalog.html">PLUS SIZE</a>
+      </li>
+      <li class="menu-item">
+        <a href="catalog.html">LINGERIE</a>
+      </li>
+      <li class="menu-item">
+        <a href="catalog.html">NIGHTWEAR</a>
+      </li>
+      <li class="menu-item">
+        <a href="catalog.html">GIFTS</a>
+      </li>
+      <li class="menu-item">
+        <a href="catalog.html">COLLECTIONS</a>
+      </li>
+    </ul>
+    <ul class="nav-home">
+      <a href="#">
+        <img src="../images/search.png" id="searching-img" alt="#" class="nav-img">
+      </a>
+      <a href="favorites.html">
+        <span class="liked-count" value="1"></span>
+        <img src="../images/heart.png" alt="#" class="nav-img">
+      </a>
+      <a href="profile.html">
+        <img src="../images/user.png" alt="profile" class="nav-img">
+      </a>
+      <a href="cart.html">
+        <img src="../images/shopping-cart.png" alt="#" class="nav-img">
+      </a>
+    </ul>
+  </div>
+</nav>
+
+<div class="mobile-header">
+  <div id='mobile-header__header' class="mobile-header__header">
+    Free shipping & free returns
+  </div>
+  <div class="mobile-header__nav" id="mobile-header__nav">
+    <ul id='mobile_menu'class="nav-menu mobile_menu">
+      <li class="menu-item">
+        <a href="pages/catalog.html">NEW ARRIVALS</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">PLUS SIZE</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">LINGERIE</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">NIGHTWEAR</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">GIFTS</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">COLLECTIONS</a>
+      </li>
+
+      <div class="container-header mobile__container-header">
+        <div class="language">
+          <div class="language-short">EUR</div>
+          <div class="language-full">Germany</div>
+        </div>
+        <div class="header-support">Support</div>
+      </div>
+
+    </ul>
+
+    <div class="mobile-header__burger-search">
+      <div id="nav__burger" class="nav__burger">
+        <span id="brg__span"></span>
+      </div>
+      <a href="#">
+        <img src="../images/search.png" id="searching-img-mobile" alt="#" class="nav-img">
+      </a>
+    </div>
+    <div class="searching-line" id="searching-line-mobile">
+      <div class="searching-line__wrapper">
+        <label>
+          <input type="submit"   name="search-submit-btn" id="search-submit-btn-mobile">
+          <img class="nav-img" onclick="showSearchValueMobile()" src="images/search.png" alt="#" >
+        </label>
+        <input type="text" name="search-data" id="search-data-mobile" placeholder="Type here ">
+      </div>
+      <button type="reset" id="close-search-btn-mobile">Cancel</button>
+    </div>
+    <div class="mobile-logo">
+      <a href="../index.html">
+        <img src="../images/mobile_logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="mobile-header__home">
+      <a href="#">
+        <span class="liked-count" value="1"></span>
+        <img src="../images/heart.png" alt="heart" class="nav-img">
+      </a>
+      <a href="pages/cart.html">
+        <img src="../images/shopping-cart.png" alt="cart" class="nav-img">
+      </a>
+    </div>
+  </div>
+</div>
+
+<h1>cATALOG</h1>
+
+<footer class="footer">
+  <div class="footer-top">
+    <img src="../images/footer-logo.png" alt="logo">
+    <div class="footer-info-block">
+      <div class="footer-info-block-item">
+        <div class="footer-info-block-item-title" id="footer-info-block-item-title1">Main</div>
+        <div class="footer-info-block__links-wrapper" id="footer-info-block__links-wrapper1">
+          <a href="#">Shop</a>
+          <a href="#">Underwear</a>
+          <a href="#">Bras</a>
+          <a href="#">Fitting Room</a>
+        </div>
+      </div>
+      <div class="footer-info-block-item">
+        <div class="footer-info-block-item-title" id="footer-info-block-item-title2">Information</div>
+        <div class="footer-info-block__links-wrapper" id="footer-info-block__links-wrapper2">
+          <a href="#">Payments</a>
+          <a href="#">Shipping & Delivery</a>
+          <a href="#">Returns</a>
+          <a href="#">Purchase Conclusion</a>
+        </div>
+      </div>
+      <div class="footer-info-block-item">
+        <div class="footer-info-block-item-title" id="footer-info-block-item-title3">Company</div>
+        <div class="footer-info-block__links-wrapper" id="footer-info-block__links-wrapper3">
+          <a href="#">About Us</a>
+          <a href="#">Requisites</a>
+          <a href="#">Contacts</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-info-block-form">
+      <div class="footer-info-block-item-title">Join Our Mailing List</div>
+      <div class="footer-contact-form">
+        <input type="email" name="contact" id="contact" placeholder="E-mail" >
+        <button type="reset" name="contact" class="footer-send-email-btn"></button>
+      </div>
+      <div class="footer-info-block-form-description">
+        <p>
+          By signing up you agree with our <a href="#" class="footer-term-conditions">
+          Terms & Conditions</a> and
+          <a href="#" class="footer-privacy-policy"> Privacy Policy</a>.
+        </p>
+        <p>
+          To opt out, click Unsubscribe in our emails.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-item">
+      <div class="footer-bottom-year">©2021. Almerna</div>
+    </div>
+    <div class="footer-bottom-item">
+      <div class="footer-bottom-info">
+        <a href="#" class="footer-term-conditions"> Terms & Conditions</a>
+        <a href="#" class="footer-privacy-policy"> Privacy Policy</a>
+      </div>
+      <div class="footer-bottom-socials">
+        <a href="#">  <img src="../images/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="../images/instagramf.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<div class="up__button">up</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/upbutton.js"></script>
+<script src="js/burger-menu-vs-search-btn.js"></script>
+</body>
+</html>
